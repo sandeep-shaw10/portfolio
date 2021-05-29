@@ -1,0 +1,18 @@
+.allDiv{
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.wrapDiv > a{
+    text-decoration: none;
+}
+
+.imageDiv > img{
+    filter: grayscale(50%) hue-rotate(180deg);
+    transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.allDiv:hover .imageDiv > img{
+    filter: grayscale(10%) hue-rotate(10deg);
+}
+

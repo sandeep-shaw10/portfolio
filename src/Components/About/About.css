@@ -1,0 +1,28 @@
+
+
+  .media-about{
+    display: none;
+    transition: 1s;
+  }
+
+  .wrap-about:hover .media-about{
+    display: block;
+    transition: 1s;
+  }
+
+  .wrap-about:hover .contact-about{
+    display: none;
+    transition: 1s;
+  }
+
+
+.media-about > .row > .link > a > svg:hover{
+  transform: rotate(359deg);
+  transition: 1.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.progress-bar{
+  text-align: right !important;
+  padding-right: 10% !important;
+}
+
