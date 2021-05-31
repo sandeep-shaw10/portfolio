@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import {projectData, categoryData} from './Data';
 import './Project.css';
 
@@ -61,7 +60,7 @@ export default class Project extends Component {
                     <div className="row mt-5">
                         {this.state.filtered.map((x, index) => 
                             <div className="col-lg-4 col-md-6 col-sm-12 my-2 wrapDiv" key={index} data-aos={"zoom-in"}>
-                                <a target="_blank" href={x.projectLink} >
+                                <a target="_blank" href={x.projectLink} rel="noreferrer" >
                                 <div className="wrap allDiv" style={{backgroundColor: themeBgNot}}>
                                     <div className="container m-0 p-0">
                                         <div className="row">

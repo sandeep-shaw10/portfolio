@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Link} from "react-router-dom";
+import {RiCloseCircleFill} from "react-icons/ri"
 import './Navbar.css';
 
 import {VscThreeBars} from 'react-icons/vsc';
@@ -59,11 +60,13 @@ class Navbar extends Component {
         return (
             <>
                 <div id="myNav" className="overlay" style={(this.props.data.mobileShow)?showHeight:hideHeight} data-aos={"fade-left"}>
-                    <button className="closebtn" onClick={this.closeNavbar} style={{backgroundColor: "#ffffff00", border: "0px", color:"white"}}>&times;</button>
+                    <button className="closebtn" onClick={this.closeNavbar} style={{backgroundColor: "#ffffff00", border: "0px", color:"white"}}>
+                        <RiCloseCircleFill size={50}  />
+                    </button>
                     <div className="overlay-content">
                         {
                             <>
-                                {Object.keys(links).map((x,i) => <Link key={i} to={links[x]}>{x}</Link> )}
+                                {Object.keys(links).map((x,i) => <Link onClick={this.closeNavbar} key={i} to={links[x]}>{x}</Link> )}
                                 {<li> <button onClick={this.changeTheme} className="btn btn-light btn-lg mt-2 text-center">Theme : {
                                     (this.props.data.theme)?<> Dark <WiMoonWaningGibbous1/></>:<> Light <WiMoonAltWaxingGibbous4/> </>
                                 }</button> </li>}

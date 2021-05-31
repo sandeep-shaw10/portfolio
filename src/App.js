@@ -46,13 +46,13 @@ class App extends Component {
   }
 
   render() {
-    window.alert("WEBSITE UNDER CODESTRUCTION");
+    //window.alert("WEBSITE UNDER CODESTRUCTION");
     const darkTheme = {backgroundColor: this.state.darkTheme}
     const lightTheme = {backgroundColor: this.state.lightTheme}
     return (
       <div style={(this.state.theme)?darkTheme:lightTheme}>
 
-        <Router>
+        <Router basename="portfolio">
 
           <Navbar data={this.state} updateState={this.updateState} />
             <div className="content">

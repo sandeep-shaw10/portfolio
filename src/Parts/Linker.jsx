@@ -23,7 +23,7 @@ export default class Linker extends Component {
                     content: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam voluptatibus minus hic molestiae nesciunt ut quo? Recusandae eveniet quae veniam obcaecati totam, veritatis molestiae nulla error nam unde? Eum, repellendus?",
                     button: "Project",
                     image: Image1,
-                    linkTo: "/portfolio",
+                    linkTo: "/project",
                     btnColor: "#8d86c9",
                     icon: <FcKindle size={100} />
                 },

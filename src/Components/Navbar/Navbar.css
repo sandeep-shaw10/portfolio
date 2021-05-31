@@ -49,6 +49,12 @@
     transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
+.closebtn{
+    position: fixed;
+    right: 40px;
+    top: 20px
+}
+
 @media screen and (max-height: 450px) {
     .overlay {overflow-y: auto;}
     .overlay a {font-size: 20px}

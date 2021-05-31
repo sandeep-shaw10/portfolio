@@ -11,7 +11,7 @@ export default class Intro extends Component {
                     'Web Developer',
                     'Student',
                     'Graphic Designer',
-                    'Engineer',
+                    'Programmer',
                 ],
                 display : "",
             }
