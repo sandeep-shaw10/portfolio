@@ -46,6 +46,7 @@ class App extends Component {
   }
 
   render() {
+    window.alert("WEBSITE UNDER CODESTRUCTION");
     const darkTheme = {backgroundColor: this.state.darkTheme}
     const lightTheme = {backgroundColor: this.state.lightTheme}
     return (
