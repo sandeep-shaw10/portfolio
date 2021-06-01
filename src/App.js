@@ -15,6 +15,7 @@ import Home from './Components/Home/Home';
 import Navbar from './Components/Navbar/Navbar';
 import Project from './Components/Project/Project';
 import Footer from './Parts/Footer';
+import Error from './Components/Error/Error';
 
 class App extends Component {
   constructor(){
@@ -73,6 +74,10 @@ class App extends Component {
                 </Route>
                 <Route exact path={this.state.links["Contact"]}>
                   <Contact theme={this.state.theme} light={this.state.lightTheme} dark={this.state.darkTheme}/>
+                </Route>
+
+                <Route>
+                  <Error theme={this.state.theme} light={this.state.lightTheme} dark={this.state.darkTheme} />
                 </Route>
               </Switch>
             </div>

@@ -10,10 +10,10 @@ export default class About extends Component {
         this.state = {
             about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi, corrupti! Minus exercitationem quae vero fugiat sint! Quos blanditiis, assumenda odit ipsam eum omnis doloremque provident quo, tempore nostrum aliquid voluptate magnam, dolor totam distinctio ad placeat? Ut eos quibusdam, praesentium quidem sed nostrum odit expedita sequi voluptatibus provident, labore quia consequatur recusandae, nisi aperiam necessitatibus ad voluptatum distinctio quis error!",
             record: [
-                {title: "Project", number: "999"},
-                {title: "Project", number: "999"},
-                {title: "Project", number: "999"},
-                {title: "Project", number: "999"},
+                {title: "Projects", number: "14"},
+                {title: "Articles", number: "3"},
+                {title: "Testimonials", number: "0"},
+                {title: "Clients", number: "3"},
             ]
         }
     }

@@ -61,7 +61,7 @@ class Navbar extends Component {
             <>
                 <div id="myNav" className="overlay" style={(this.props.data.mobileShow)?showHeight:hideHeight} data-aos={"fade-left"}>
                     <button className="closebtn" onClick={this.closeNavbar} style={{backgroundColor: "#ffffff00", border: "0px", color:"white"}}>
-                        <RiCloseCircleFill size={50}  />
+                        <RiCloseCircleFill size={25}  />
                     </button>
                     <div className="overlay-content">
                         {

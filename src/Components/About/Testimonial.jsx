@@ -7,7 +7,7 @@ export default class Testimonial extends Component {
         super(props)
         this.state = {
             testimonial:[
-                {
+                /*{
                     name: "Sandeep Shaw",
                     position: "Student",
                     about: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deleniti similique voluptate praesentium sit illum cumque perspiciatis, ad asperiores pariatur aliquid molestias, quod error natus doloremque? Accusamus, expedita dolorem? Autem aut nulla dolore incidunt sint nobis, tempore inventore quod quo voluptatum optio magni, esse, debitis maxime dicta nisi quis? Labore."
@@ -21,7 +21,7 @@ export default class Testimonial extends Component {
                     name: "Sandeep Shaw 2",
                     position: "Student",
                     about: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deleniti similique voluptate praesentium sit illum cumque perspiciatis, ad asperiores pariatur aliquid molestias, quod error natus doloremque? Accusamus, expedita dolorem? Autem aut nulla dolore incidunt sint nobis, tempore inventore quod quo voluptatum optio magni, esse, debitis maxime dicta nisi quis? Labore."
-                }
+                }*/
             ]
         }
     }
@@ -31,7 +31,7 @@ export default class Testimonial extends Component {
         let themeBgX = (this.props.theme)?this.props.light:this.props.dark;
         return (
                 <>
-                {this.state.testimonial && 
+                {(this.state.testimonial.length > 0) && 
                     <div className="testimonial-container container mt-5" data-aos={"zoom-in"}>
                         <h1 className="text-center underline pt-5" style={{color: themeBgX}}>TESTIMONIALS</h1>
                         <div className="row">
