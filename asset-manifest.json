@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.9f6ccfd9.chunk.css",
-    "main.js": "/portfolio/static/js/main.f2c1227e.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.f2c1227e.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.0cc7669f.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.0cc7669f.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.76232b81.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.76232b81.js.map",
     "static/css/2.cc9ff937.chunk.css": "/portfolio/static/css/2.cc9ff937.chunk.css",
@@ -17,8 +17,8 @@
     "static/media/GraphJS.6863a001.webp": "/portfolio/static/media/GraphJS.6863a001.webp",
     "static/media/Myfolio.05bb949f.png": "/portfolio/static/media/Myfolio.05bb949f.png",
     "static/media/P2_Python_TTS.3c4bb931.webp": "/portfolio/static/media/P2_Python_TTS.3c4bb931.webp",
-    "static/media/Resume.14718d39.pdf": "/portfolio/static/media/Resume.14718d39.pdf",
     "static/media/Resume.637f93d5.webp": "/portfolio/static/media/Resume.637f93d5.webp",
+    "static/media/Resume.9cac92eb.pdf": "/portfolio/static/media/Resume.9cac92eb.pdf",
     "static/media/Sorting1.77155815.webp": "/portfolio/static/media/Sorting1.77155815.webp",
     "static/media/covid.73b34c5e.webp": "/portfolio/static/media/covid.73b34c5e.webp",
     "static/media/direct-msg.dca8d1d9.webp": "/portfolio/static/media/direct-msg.dca8d1d9.webp",
@@ -32,6 +32,6 @@
     "static/css/2.cc9ff937.chunk.css",
     "static/js/2.e5efdec1.chunk.js",
     "static/css/main.9f6ccfd9.chunk.css",
-    "static/js/main.f2c1227e.chunk.js"
+    "static/js/main.0cc7669f.chunk.js"
   ]
 }
