@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-import Resume from './Resume.pdf'
 
 export default class Intro extends Component {
 
@@ -14,6 +13,7 @@ export default class Intro extends Component {
                     'Programmer',
                 ],
                 display : "",
+                linkResume : "https://drive.google.com/file/d/1x1ZamJ1XmhMcVYDb1Nc9Da9jsnS1Vqet/view",
             }
         this.typeEffect = this.typeEffect.bind(this);
         this.calTypeEffect = this.calTypeEffect.bind(this);
@@ -86,7 +86,7 @@ export default class Intro extends Component {
                     <h1 style={{color: themeColor}}>I'm</h1>
                     <h2 id="typeEffect" style={{color: themeColor}} >{this.state.display}|</h2>
                     <div className="btn-group btn-group-lg mt-3" role="group" aria-label="Basic mixed styles example" >
-                        <Link className="btn lead" target="_blank" to={Resume} style={{backgroundColor: "#9db6d2", color: this.props.data.lightTheme}} download> Resume  </Link>
+                        <a rel="noreferrer"  className="btn lead" target="_blank" href={this.state.linkResume} style={{backgroundColor: "#9db6d2", color: this.props.data.lightTheme}}> Resume  </a>
                         <Link className="btn lead" to="/contact" style={{backgroundColor: "#8d86c9", color: this.props.data.lightTheme}}> Contact </Link>
                     </div>
                 </div>
