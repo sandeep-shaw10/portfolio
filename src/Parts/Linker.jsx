@@ -12,7 +12,7 @@ export default class Linker extends Component {
         this.state = {
             explore : [
                 {
-                    content: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam voluptatibus minus hic molestiae nesciunt ut quo? Recusandae eveniet quae veniam obcaecati totam, veritatis molestiae nulla error nam unde? Eum, repellendus?",
+                    content: "Check out some of the programming and scripting languages that I'm interested in and can work comfortably in it. It also includes some of the application libraries, frameworks, and essential tools used nowadays.",
                     button: "Skills",
                     image: Image2,
                     linkTo: "/about",
@@ -20,7 +20,7 @@ export default class Linker extends Component {
                     icon: <FcReadingEbook size={100} />
                 },
                 {
-                    content: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam voluptatibus minus hic molestiae nesciunt ut quo? Recusandae eveniet quae veniam obcaecati totam, veritatis molestiae nulla error nam unde? Eum, repellendus?",
+                    content: "Look at some of my portfolios collection. Most projects are done individually and sometimes as a part of a group ranging from static to dynamic websites, basic desktop applications along with some real-life projects.",
                     button: "Project",
                     image: Image1,
                     linkTo: "/project",
@@ -28,7 +28,7 @@ export default class Linker extends Component {
                     icon: <FcKindle size={100} />
                 },
                 {
-                    content: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam voluptatibus minus hic molestiae nesciunt ut quo? Recusandae eveniet quae veniam obcaecati totam, veritatis molestiae nulla error nam unde? Eum, repellendus?",
+                    content: "For any query oriented towards programming or project-related discussion please feel free to contact me through emails or various social media handlers by clicking the button below. ",
                     button: "Contact",
                     image: Image2,
                     linkTo: "/contact",

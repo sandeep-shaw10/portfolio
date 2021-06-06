@@ -8,7 +8,7 @@ export default class About extends Component {
     constructor(props){
         super(props)
         this.state = {
-            about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi, corrupti! Minus exercitationem quae vero fugiat sint! Quos blanditiis, assumenda odit ipsam eum omnis doloremque provident quo, tempore nostrum aliquid voluptate magnam, dolor totam distinctio ad placeat? Ut eos quibusdam, praesentium quidem sed nostrum odit expedita sequi voluptatibus provident, labore quia consequatur recusandae, nisi aperiam necessitatibus ad voluptatum distinctio quis error!",
+            about: "A Coding Pragmatist, Data Structure, and Algorithm explorer with experience in Dynamic Programming. My programming tools include CPP, Java, C, and Python. Also an Innovative and enthusiast Web Developer with 2+ years of experience in Front-end development and on my way towards Full Stack Web Development. I've built some projects individually and sometimes as a part of a group ranging from static to dynamic websites, basic desktop applications along with some real-life projects.",
             record: [
                 {title: "Projects", number: "14"},
                 {title: "Articles", number: "3"},
