@@ -1,24 +1,23 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.9f6ccfd9.chunk.css",
-    "main.js": "/portfolio/static/js/main.0cc7669f.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.0cc7669f.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.a1758f3b.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.a1758f3b.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.76232b81.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.76232b81.js.map",
     "static/css/2.cc9ff937.chunk.css": "/portfolio/static/css/2.cc9ff937.chunk.css",
-    "static/js/2.e5efdec1.chunk.js": "/portfolio/static/js/2.e5efdec1.chunk.js",
-    "static/js/2.e5efdec1.chunk.js.map": "/portfolio/static/js/2.e5efdec1.chunk.js.map",
+    "static/js/2.f3266d2d.chunk.js": "/portfolio/static/js/2.f3266d2d.chunk.js",
+    "static/js/2.f3266d2d.chunk.js.map": "/portfolio/static/js/2.f3266d2d.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/2.cc9ff937.chunk.css.map": "/portfolio/static/css/2.cc9ff937.chunk.css.map",
     "static/css/main.9f6ccfd9.chunk.css.map": "/portfolio/static/css/main.9f6ccfd9.chunk.css.map",
-    "static/js/2.e5efdec1.chunk.js.LICENSE.txt": "/portfolio/static/js/2.e5efdec1.chunk.js.LICENSE.txt",
+    "static/js/2.f3266d2d.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f3266d2d.chunk.js.LICENSE.txt",
     "static/media/DjangoApp.4c305ce3.webp": "/portfolio/static/media/DjangoApp.4c305ce3.webp",
     "static/media/Ecommerce.49ed1ab5.webp": "/portfolio/static/media/Ecommerce.49ed1ab5.webp",
     "static/media/GraphJS.6863a001.webp": "/portfolio/static/media/GraphJS.6863a001.webp",
     "static/media/Myfolio.05bb949f.png": "/portfolio/static/media/Myfolio.05bb949f.png",
     "static/media/P2_Python_TTS.3c4bb931.webp": "/portfolio/static/media/P2_Python_TTS.3c4bb931.webp",
     "static/media/Resume.637f93d5.webp": "/portfolio/static/media/Resume.637f93d5.webp",
-    "static/media/Resume.9cac92eb.pdf": "/portfolio/static/media/Resume.9cac92eb.pdf",
     "static/media/Sorting1.77155815.webp": "/portfolio/static/media/Sorting1.77155815.webp",
     "static/media/covid.73b34c5e.webp": "/portfolio/static/media/covid.73b34c5e.webp",
     "static/media/direct-msg.dca8d1d9.webp": "/portfolio/static/media/direct-msg.dca8d1d9.webp",
@@ -30,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.76232b81.js",
     "static/css/2.cc9ff937.chunk.css",
-    "static/js/2.e5efdec1.chunk.js",
+    "static/js/2.f3266d2d.chunk.js",
     "static/css/main.9f6ccfd9.chunk.css",
-    "static/js/main.0cc7669f.chunk.js"
+    "static/js/main.a1758f3b.chunk.js"
   ]
 }
