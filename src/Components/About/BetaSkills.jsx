@@ -11,7 +11,6 @@ export default class BetaSkills extends Component {
 
                     { name: "django", link: "raw.githubusercontent.com/devicons/devicon/master/icons/django/django-original.svg"},
                     { name: "electron", link: "raw.githubusercontent.com/devicons/devicon/master/icons/electron/electron-original.svg"},
-                    { name: "ai", link: "www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg"},
 
                     { name: "react", link: "raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"},
                     { name: "nodejs", link: "raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"},
@@ -21,7 +20,7 @@ export default class BetaSkills extends Component {
 
                     { name: "selenium", link: "raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg"},
 
-                    
+                    { name: "ai", link: "www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg"},
                     /*{ name: "ppt", link: "upload.wikimedia.org/wikipedia/commons/0/0d/Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg"},*/
                     { name: "excel", link: "upload.wikimedia.org/wikipedia/commons/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg"},
 

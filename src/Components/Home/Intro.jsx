@@ -7,22 +7,22 @@ export default class Intro extends Component {
         super(props)
         this.state = {
                 skills : [
-                    'Web Developer',
-                    'Student',
-                    'Graphic Designer',
-                    'Programmer',
+                    'Web Developer  ',
+                    'Student  ',
+                    'Graphic Designer  ',
+                    'Programmer  ',
                 ],
                 display : "",
                 linkResume : "https://drive.google.com/file/d/1x1ZamJ1XmhMcVYDb1Nc9Da9jsnS1Vqet/view",
+                typeData : [""],
+                count: 0,
             }
         this.typeEffect = this.typeEffect.bind(this);
-        this.calTypeEffect = this.calTypeEffect.bind(this);
     }
 
     typeEffect = () => {
         let skills = this.state.skills;
         var animate = [];
-        let self = this;
 
         for(let m=0; m<skills.length; m++)
         {
@@ -37,45 +37,24 @@ export default class Intro extends Component {
                 //console.log(show.substring(0,i))
                 animate.push(show.substring(0,i))
             }
-            //console.log(animate)
-
-            for(let k=0; k<animate.length; k++){
-                this.timeId = setTimeout(function () {
-                    self.setState({ display:animate[k]});
-                }, (k + 1) * 100);
-            }
         }
+        this.setState({ typeData: animate, display:animate[0]  })
+        console.log(animate)
         
     }
 
-    calTypeEffect = () => {
-        let time = 0;
-        let words = this.state.skills.length;
-
-        for(let i=0; i<words; i++){
-            for(let j=0; j<this.state.skills[i].length; j++){
-                time++;
-            }
-        }
-
-        return(2*time + words);
-
-    }
-
     componentDidMount(){
-        let self = this;
-
-        let timer = this.calTypeEffect()*100 + 10;
-
-        self.typeEffect();
-        this.intervalID = setInterval(function() {
-            self.typeEffect()
-        }, timer);
+        this.typeEffect();
+        this.typeInterval = setInterval(() => {
+            this.setState({
+                count: (this.state.count + 1) % this.state.typeData.length,
+                display: this.state.typeData[this.state.count],
+            })
+        }, 100);
     }
 
     componentWillUnmount(){
-        clearInterval(this.intervalID);
-        clearTimeout(this.timeId);
+        clearInterval(this.typeInterval)
     }
 
     render() {

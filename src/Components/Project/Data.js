@@ -48,7 +48,7 @@ const projectData = [
         about: "Using Python Eel's to utilize web languages like HTML, CSS, and JS in Desktop Application which generates a QR Code based on any input.",
         imgLink: Image4,
         projectLink: "https://github.com/sandeep-shaw10/qr-code-generator",
-        category: [categoryData[3]]
+        category: [categoryData[3], categoryData[0]]
     },
     {
         name: "Py-TTS",
