@@ -2,7 +2,7 @@
 <h1 align="center">Hi 👋, I'm Sandeep Shaw</h1>
 <h3 align="center">A passionate coding pragmatist and aspiring web developer</h3>
 
-- 👨‍💻 All of my projects are available at [![Generic badge](https://img.shields.io/badge/CLICK%20HERE-1abc9c.svg)](https://sandeepshaw.herokuapp.com/portfolio)
+- 👨‍💻 All of my projects are available at [![Generic badge](https://img.shields.io/badge/CLICK%20HERE-1abc9c.svg)](https://sandeep-shaw10.github.io/portfolio)
 
 - 💬 Ask me about **Java, Python, C, Web, React, Django**
 
