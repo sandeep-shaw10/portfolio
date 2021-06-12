@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Link} from "react-router-dom";
+import { NavLink } from 'react-router-dom';
 import {RiCloseCircleFill} from "react-icons/ri"
 import './Navbar.css';
 
@@ -87,7 +88,7 @@ class Navbar extends Component {
                                     <>
                                         {Object.keys(links).map((x,i) => 
                                             <li className="linkBtn nav-item ms-2" key={i}>
-                                                <Link className=" nav-link" to={links[x]} style={{color: themeColor}} >{x}</Link>
+                                                <NavLink activeClassName={ (x=="Home")?"otherLink":"homeLink"} className=" nav-link" to={links[x]} style={{color: themeColor}} >{x}</NavLink>
                                             </li>
                                         )}
                                         {<li> <button onClick={this.changeTheme} className="btn btn-light ms-4">{

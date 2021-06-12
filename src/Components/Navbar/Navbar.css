@@ -55,6 +55,36 @@
     top: 20px
 }
 
+.otherLink{
+    text-decoration: none !important;
+    position: relative !important;
+}
+
+.homeLink {
+    text-decoration: none !important;
+    position: relative !important;
+  }
+  
+  .homeLink:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    bottom: -1px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 60%;
+    background: #cacaca;
+    -webkit-transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+
+  .homeLink:hover:after {
+    width: 20%;
+    background: #9db6d2;
+    opacity: 0.1;
+  }
+
 @media screen and (max-height: 450px) {
     .overlay {overflow-y: auto;}
     .overlay a {font-size: 20px}
