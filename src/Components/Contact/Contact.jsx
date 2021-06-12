@@ -1,49 +1,8 @@
 import React, { Component } from 'react';
 import AllMedia from './AllMedia';
+import Form from './Form';
 
 export default class Contact extends Component {
-    constructor(props){
-        super(props);
-        this.sendMail = this.sendMail.bind(this);
-        this.onFilled = this.onFilled.bind(this);
-        this.state = {
-            subject: '',
-            name: '',
-            content: '',
-        }
-    }
-
-    onFilled = (e) => {
-        let x =this.state
-        if(e.target.name === "subject"){
-            x.subject = e.target.value;
-            this.setState({...x});
-        }else if(e.target.name === "name"){
-            x.name = e.target.value;
-            this.setState({...x});
-        }else{
-            x.content = e.target.value;
-            this.setState({...x});
-        }
-    }
-
-    sendMail = () => {
-        if(this.state.name && this.state.subject && this.state.content)
-        {
-            let subject = this.state.subject;
-            let name = "Hello I'am "+this.state.name+".\n I wanna say: ";
-            let content = name + this.state.content;
-            let myid = "sandeep10shaw@gmail.com;"
-            window.location = "mailto:"+myid+"?subject="+subject+"&body="+content;
-        }else{
-            if(this.state.name){
-                alert("Hello "+this.state.name+", Please fill the full Contact Form");
-            }
-            else{
-                alert("Kindly fill the full Contact Form Please!");
-            }
-        }
-    }
 
     render() {
         let themeColor = (this.props.theme)?this.props.light:this.props.dark;
@@ -60,27 +19,7 @@ export default class Contact extends Component {
                               style = {{width: '100%', height:'500px', border:"0"}} frameBorder="0px" allowFullScreen />
                         </div>
                         <div className="col-12 col-md-6" data-aos={"fade-up"}>
-                                <div className = "row">
-                                <h2 className = "mt-3" style={{color: themeColor}}>GET IN TOUCH</h2>
-                                    <div className = "col-lg-12">
-                                        <div className = "form-group">
-                                            <input value={this.state.name} name="name" type="text" className = "form-control mt-2" placeholder="Enter Name" required onChange={this.onFilled}/>
-                                        </div>
-                                    </div>
-                                    <div className = "col-lg-12">
-                                        <div className = "form-group mb-2">
-                                            <input value={this.state.subject} name="subject" type="text" className = "form-control mt-2" placeholder="Enter Subject" required onChange={this.onFilled} />
-                                        </div>
-                                    </div>
-                                    <div className = "col-12">
-                                        <div className = "form-group mb-2">
-                                            <textarea value={this.state.content} name="content" className = "form-control" id="exampleFormControlTextarea1" placeholder="Enter Message" rows="5" required onChange={this.onFilled}></textarea>
-                                        </div>
-                                    </div>
-                                    <div className = "col-12">
-                                        <button className = "btn btn-light" onClick={this.sendMail}>Send</button>
-                                    </div>
-                                </div>
+                            <Form themeColor={themeColor} />
                             <AllMedia color={themeColor} />
                         </div>
                     </div>     
